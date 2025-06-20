@@ -8,8 +8,8 @@ deployAs:
       postDeploy: npm install && npm run connector:post-deploy
       preUndeploy: npm install && npm run connector:pre-undeploy
     configuration:
-      title: 'new titile'
       standardConfiguration:
+          title: 'new titile'
         - key: INVOICE_ACTION
           description: "Novalnet unique identifier."
           required: false
