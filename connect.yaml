@@ -35,14 +35,11 @@ deployAs:
         - key: NOVALNET_WEBHOOK_URL
           description: Novalnet unique identifier.
           required: true
+        - key: INVOICE_ACTION
+        - key: INVOICE_DUE_DATE
+          description: Invoice due data.
+          required: true
       securedConfiguration:
         - key: CTP_CLIENT_SECRET
           description: "commercetools client secret"
-          required: true
-  - name: invoice
-    applicationType: service
-    configuration:
-      standardConfiguration:
-        - key: INVOICE_DUE_DATE
-          description: "commercetools invoice project key descriptions"
           required: true
