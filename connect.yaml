@@ -65,12 +65,6 @@ deployAs:
           
       securedConfiguration:
         # Simulated Title for Sensitive Config
-        - key: SECTION_HEADER_SECRET
-          label: "Secure Configuration"
-          description: "Enter all sensitive keys for authentication."
-          type: text
-          required: false
-
         - key: CTP_CLIENT_SECRET
           description: "commercetools client secret"
           required: true
