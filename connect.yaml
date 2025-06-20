@@ -39,3 +39,10 @@ deployAs:
         - key: CTP_CLIENT_SECRET
           description: "commercetools client secret"
           required: true
+  - name: invoice
+    applicationType: service
+    configuration:
+      standardConfiguration:
+        - key: INVOICE_DUE_DATE
+          description: "commercetools invoice project key descriptions"
+          required: true
