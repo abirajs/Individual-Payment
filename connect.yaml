@@ -9,6 +9,7 @@ deployAs:
       preUndeploy: npm install && npm run connector:pre-undeploy
     configuration:
       standardConfiguration:
+          title: 'New Title'
         - key: INVOICE_ACTION
           description: "Novalnet unique identifier."
           required: true
@@ -40,11 +41,6 @@ deployAs:
           required: true
         - key: NOVALNET_WEBHOOK_URL
           description: Novalnet unique identifier.
-          required: true
-        - key: INVOICE_ACTION
-          description: .
-        - key: INVOICE_DUE_DATE
-          description: Invoice due data.
           required: true
       securedConfiguration:
         - key: CTP_CLIENT_SECRET
