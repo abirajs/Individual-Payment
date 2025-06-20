@@ -9,7 +9,6 @@ deployAs:
       preUndeploy: npm install && npm run connector:pre-undeploy
     configuration:
       standardConfiguration:
-          title: 'New Title'
         - key: INVOICE_ACTION
           description: "Novalnet unique identifier."
           required: true
