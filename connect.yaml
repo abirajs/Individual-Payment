@@ -36,6 +36,7 @@ deployAs:
           description: Novalnet unique identifier.
           required: true
         - key: INVOICE_ACTION
+          description:
         - key: INVOICE_DUE_DATE
           description: Invoice due data.
           required: true
