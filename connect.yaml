@@ -13,11 +13,9 @@ deployAs:
         description: Configure the credentials and settings for Novalnet integration.
         parameters:
         - key: INVOICE_ACTION
-          title: Tariff Key
           description: Novalnet unique identifier.
           required: false
         - key: INVOICE_DUE_DATE
-          title: Client Key
           description: Novalnet client key used for authentication.
           required: false
         - key: CTP_PROJECT_KEY
