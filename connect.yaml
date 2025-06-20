@@ -3,6 +3,7 @@ deployAs:
     applicationType: assets
   - name: invoice
     applicationType: service
+    endpoint: /invoice
     configuration:
      standardConfiguration:
        - key: INVOICE_ACTION
