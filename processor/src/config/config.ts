@@ -25,6 +25,7 @@ export const config = {
 
   invoiceDueDate: process.env.INVOICE_DUE_DATE || '',
   invoiceAction: process.env.INVOICE_ACTION || '',
+  sectionHeaderCTP: process.env.SECTION_HEADER_CTP || '',
   
   // Payment Providers config
   returnUrl: process.env.RETURN_URL,
