@@ -8,12 +8,13 @@ deployAs:
       postDeploy: npm install && npm run connector:post-deploy
       preUndeploy: npm install && npm run connector:pre-undeploy
     configuration:
+      title: 'new titile'
       standardConfiguration:
         - key: INVOICE_ACTION
-          description: Novalnet unique identifier.
+          description: "Novalnet unique identifier."
           required: false
         - key: INVOICE_DUE_DATE
-          description: Novalnet client key used for authentication.
+          description: "Novalnet client key used for authentication."
           required: false
         - key: CTP_PROJECT_KEY
           description: "commercetools project key descriptions"
