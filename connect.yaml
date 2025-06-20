@@ -12,7 +12,6 @@ deployAs:
     configuration:
       standardConfiguration:
         - key: CTP_PROJECT_KEY
-          label: "Commercetools Configuration"
           description: commercetools project key
           required: true
 
