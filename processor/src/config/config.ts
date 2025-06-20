@@ -24,6 +24,7 @@ export const config = {
   novalnetWebhookURL: process.env.NOVALNET_WEBHOOK_URL || '',
 
   invoiceDueDate: process.env.INVOICE_DUE_DATE || '',
+  invoiceAction: process.env.INVOICE_ACTION || '',
   
   // Payment Providers config
   returnUrl: process.env.RETURN_URL,
