@@ -12,13 +12,8 @@ deployAs:
     configuration:
       standardConfiguration:
         # Simulated Title for commercetools settings
-        - key: SECTION_HEADER_CTP
-          label: "Commercetools Configuration"
-          description: "Provide project-level and API-related configurations."
-          type: text
-          required: false
-
         - key: CTP_PROJECT_KEY
+          label: "Commercetools Configuration"
           description: "commercetools project key"
           required: true
 
